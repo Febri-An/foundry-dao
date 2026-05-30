@@ -1,0 +1,81 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.action-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.action-row button.connected {
+  border-color: #00f2fe66;
+  background: rgba(0, 242, 254, 0.05);
+  color: #00f2fe;
+}
+
+.error-message {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 107, 107, 0.2);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+/* Delegated button — already unlocked, show green */
+.btn-secondary.delegated {
+  border-color: #22c55e66;
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+  cursor: default;
+}
+
+/* Proposal status badge colors */
+.status-text {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-left: 6px;
+}
+.status-text.active {
+  color: #60a5fa;
+}
+.status-text.pending {
+  color: #a78bfa;
+}
+.status-text.succeeded {
+  color: #22c55e;
+}
+.status-text.queued {
+  color: #facc15;
+}
+.status-text.executed {
+  color: #34d399;
+}
+.status-text.defeated {
+  color: #f87171;
+}
+.status-text.canceled {
+  color: #9ca3af;
+}
+.status-text.expired {
+  color: #9ca3af;
+}
+.status-text.unknown {
+  color: #9ca3af;
+}
