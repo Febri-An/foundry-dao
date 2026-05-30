@@ -41,10 +41,17 @@ Key extensions:
 - `GovernorTimelockControl`
 - `GovernorCountingSimple`
 
+## Addresses
+
+GovToken (DAO Token): 0x4648b142dC5b31AF8FB283416cEfe4e0A1EAEA28
+MyGovernor: 0x62AEc408fa7C82e779290ED987C16Fee57828dD3
+TimeLock: 0x558769d2cfbfdc0cedbe5c67e7a49cad0630e1f3
+Box (Target Contract): 0xCB23c96ADea70867C226eb5751D14f4D60bd402B
+
 
 ## 📅 Test Flow: `testGovernanceUpdatesBox`
 
-This test simulates a complete DAO interaction cycle:
+This test simulates a complete DAO interaction cycle:$$
 
 1. **Propose**
 ```solidity
